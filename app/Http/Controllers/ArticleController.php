@@ -8,6 +8,6 @@ class ArticleController extends Controller
 {
     public function index($id)
     {
-        return 'berita ke - '.$id;
+        return view('news', ['id'=>$id]);
     }
 }

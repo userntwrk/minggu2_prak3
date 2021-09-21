@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class CommentController extends Controller
 {
-    public function index($id)
+    public function index($nama, $pesan)
     {
-        return 'comment : <br>'.$id;
+        return view('comment', ['nama' => $nama, 'pesan' => $pesan]);
     }
 }

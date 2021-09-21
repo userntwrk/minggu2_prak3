@@ -8,21 +8,21 @@ class SaranaController extends Controller
 {
     public function kantor()
     {
-        return 'Sarana : perkantoran';
+        return view('sarana.perkantoran');
     }
 
     public function lab()
     {
-        return 'Sarana : laboratorium';
+        return view('sarana.laboratorium');
     }
 
     public function kelas()
     {
-        return 'Sarana : kelas';
+        return view('sarana.kelas');
     }
 
     public function dll()
     {
-        return 'Sarana : lainnya';
+        return view('sarana.dll');
     }
 }

@@ -37,4 +37,4 @@ Route::prefix('sarana')->group(function(){
 
 Route::resource('/about', AboutController::class);
 
-Route::get('/comment/{id}', [CommentController::class, 'index']);
+Route::get('/comment/{nama}/{pesan}', [CommentController::class, 'index']);

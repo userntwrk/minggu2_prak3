@@ -8,11 +8,11 @@ class StudiController extends Controller
 {
     public function mi()
     {
-        return 'Prodi : Manajemen Informatika';
+        return view('studi.mi');
     }
 
     public function ti()
     {
-        return 'Prodi : Teknik Informatika';
+        return view('studi.ti');
     }
 }
